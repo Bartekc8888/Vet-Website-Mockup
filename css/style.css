@@ -1514,7 +1514,7 @@ td, th {
   background-attachment: fixed;
 }
 .banner-section3 .overlay-bg {
-  background: url(../img/banner-overlay.png);
+  background: url(../img/background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
