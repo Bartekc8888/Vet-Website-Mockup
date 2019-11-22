@@ -82,9 +82,9 @@ Author:    F4H3M
 }
 
 body {
-  color: #8c8d9e;
+  color: #000;
   font-family: "Poppins", sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 300;
   line-height: 1.625em;
   position: relative;
@@ -1684,11 +1684,12 @@ td, th {
 }
 
 .service-section {
+  background: #eee;
   padding-bottom: 120px;
 }
 .service-section .single-service {
   position: relative;
-  background-color: #f5f5f56b;
+  background-color: #fff;
   padding: 40px 30px;
   -webkit-box-shadow: 0 7px 20px -10px rgba(171, 171, 171, 0.7);
   -moz-box-shadow: 0 7px 20px -10px rgba(171, 171, 171, 0.7);
@@ -1700,7 +1701,7 @@ td, th {
 }
 .service-section .single-service i {
   font-size: 35px;
-  color: #222;
+  color: #000;
 }
 .service-section .single-service h4 {
   margin: 10px 0px;
@@ -2865,6 +2866,10 @@ td, th {
 }
 .contact-section .section-title {
   padding-top: 120px;
+}
+
+.contact-section div.container div.row.contact-wrap.align-items-center a h3 {
+  text-align: center;
 }
 
 .form-row {
