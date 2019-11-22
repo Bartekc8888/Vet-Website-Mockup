@@ -1698,6 +1698,7 @@ td, th {
   -moz-transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
+  height: 100%;
 }
 .service-section .single-service i {
   font-size: 35px;
@@ -1915,6 +1916,14 @@ td, th {
   background: #eeeeee1f;
   border-radius: 5px;
   padding: 30px;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+.single-testimonial .user-details {
+  margin-top: auto;
+  padding-bottom: 15px;
 }
 .testimonial-section .single-testimonial p {
   color: #222;
@@ -2949,7 +2958,7 @@ td, th {
   padding: 30px 0px;
   border-radius: 5px;
   background: #fff;
-  margin-bottom: 40px;
+  height: 100%;
 }
 
 .home-contact {
